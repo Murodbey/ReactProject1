@@ -84,3 +84,8 @@ git fetch --all
 # To set up a react environment use following command (example of project1)
 
 npx create-react-app project1
+
+# State is like a variable but its change causes re-rendering
+
+# Render is a UI change according to some event in javascript
+# Load is full download of page from website server

@@ -14,4 +14,8 @@ const FirstComponent = () => {
   );
 };
 
+export const consoleLogFunction = () => {
+  console.log('I am function')
+}
+
 export default FirstComponent;
