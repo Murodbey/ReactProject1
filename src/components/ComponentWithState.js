@@ -1,4 +1,4 @@
-import React,{useState} from 'react' // useState hook for state management
+import React, { useState } from 'react' // useState hook for state management
 
 const ComponentWithState = () => {
     console.log('rendering . . . ')
@@ -14,10 +14,10 @@ const ComponentWithState = () => {
     return (
         <div>
             I am component with state. Count is <span>{count}</span>
-            <br/>My name is <span>{name}</span>
-            <br/><button onClick={()=>setCount(count + 1)}>Change count</button>
+            <br />My name is <span>{name}</span>
+            <br /><button onClick={() => setCount(count + 1)}>Change count</button>
             {/* here we can use just changeCount as well */}
-            <br/><button onClick={changeName}>Change name</button>
+            <br /><button onClick={changeName}>Change name</button>
         </div>
     )
 }

@@ -1,7 +1,8 @@
 import './App.css';
 import ComponentWithState from './components/ComponentWithState';
-import FirstComponent,{consoleLogFunction} from './components/FirstComponent'
+import FirstComponent, { consoleLogFunction } from './components/FirstComponent'
 import SecondComponent from './components/SecondComponent';
+import IncrementCount from './components/CountIncrements';
 
 function App() { //Component example   JSX
   const name = 'Murod'
@@ -12,6 +13,7 @@ function App() { //Component example   JSX
       <FirstComponent />
       <SecondComponent />
       <ComponentWithState />
+      <IncrementCount />
     </div>
   );
 }
