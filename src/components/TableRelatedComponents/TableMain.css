@@ -1,0 +1,9 @@
+.table {
+    border: solid 2px black;
+    text-align: center;
+    color: black;
+}
+
+.table > tr > th {
+    color: blue;
+}

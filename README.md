@@ -89,3 +89,6 @@ npx create-react-app project1
 
 # Render is a UI change according to some event in javascript
 # Load is full download of page from website server
+
+# Props is a way to pass data or methods to components (children components)
+# Props is one way -> from parent to child component only, NOT from child to parent
