@@ -1,0 +1,40 @@
+.primary {
+    padding: 20px;
+    width: fit-content;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(92, 202, 238);
+
+}
+
+.primary:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.secondary {
+    padding: 20px;
+    width: fit-content;
+    border-radius: 0.5rem;
+    color: rgb(92, 202, 238);
+    background-color: white;
+    border: solid 2px rgb(92, 202, 238);
+}
+
+.secondary:hover {
+    cursor: pointer;
+    background-color: lightcyan;
+}
+
+.tertiary {
+    padding: 20px;
+    width: fit-content;
+    background-color: white;
+    color: rgb(92, 202, 238);
+}
+
+.tertiary:hover {
+    cursor: pointer;
+    background-color: rgb(253, 255, 245);
+}
