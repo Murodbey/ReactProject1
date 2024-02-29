@@ -1,7 +1,9 @@
 import './Button.css'
 
-const Button = ({ styleName }) => {
-
+const Button = ({ styleName, hidden }) => {
+    if(hidden) {
+        return null
+    }
     return (
         <div className={styleName}>
             I am a {styleName} button

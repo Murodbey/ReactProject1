@@ -1,0 +1,14 @@
+.btn {
+    width: fit-content;
+    height:fit-content;
+    padding: 10px;
+    border: solid lightskyblue 1px;
+    background-color: lightskyblue;
+    color: white
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: aqua;
+    box-shadow: 10px 5px 5px lightgray;
+    color: darkcyan;
+}

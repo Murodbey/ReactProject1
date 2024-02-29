@@ -92,3 +92,5 @@ npx create-react-app project1
 
 # Props is a way to pass data or methods to components (children components)
 # Props is one way -> from parent to child component only, NOT from child to parent
+# For example, imported data goes in this way App -> TableMain -> TableHead
+# If we want to make change to some data in the parent component, we can pass set function as props and allow child components to change data
