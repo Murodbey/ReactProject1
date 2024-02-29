@@ -1,6 +1,9 @@
 import React from "react";
 
-const FirstComponent = () => {
+const FirstComponent = ({hidden}) => {
+  if(hidden) {
+    return null  // means render nothing
+  }                      
   return ( // fragments used below
     <>
       <div>
